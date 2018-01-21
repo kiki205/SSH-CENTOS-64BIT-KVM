@@ -30,8 +30,6 @@ ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 
 # finalisasi
 service vnstat restart
-
-
 service sshd restart
 service dropbear restart
 service squid restart
